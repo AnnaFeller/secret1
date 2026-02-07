@@ -1,3 +1,5 @@
+document.addEventListener("DOMContentLoaded", () => {
+
 let noClick=0;
 let maxNoClick=4;
 const minNoScale=0.50;
@@ -54,5 +56,6 @@ noButton.addEventListener("click", () => {
     }
 
     noClick++;
+});
 });
 
